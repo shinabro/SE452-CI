@@ -35,7 +35,7 @@ jobs:
       with:
         arguments: build
 # Build Push Action from https://github.com/marketplace/actions/docker-build-push-action        
-    - uses: mr-smithers-excellent/docker-build-push@v4
+    - uses: mr-smithers-excellent/docker-build-push@v5
       name: Build & push Docker image
       with:
         image: depaulkenyu/se452-demo-app
